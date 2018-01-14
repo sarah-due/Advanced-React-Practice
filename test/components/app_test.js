@@ -9,6 +9,11 @@ describe('Test the App', () => {
   });
 
   it('Shows a comment box', () => {
-    expect((component).find('.comment_box')).to.exists;
+    expect((component).find('.comment_box')).to.exist;
   });
+
+  it('Shows a comment list component', () => {
+    expect((component).find('.comment_list')).to.exist;
+  });
+
 });
